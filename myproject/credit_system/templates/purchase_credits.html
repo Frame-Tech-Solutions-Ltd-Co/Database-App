@@ -1,0 +1,15 @@
+<!-- Remember to replace 'credit_system/purchase_credits.html' with the actual file path and name for the HTML template in the render function. -->
+<html>
+<head>
+    <title>Purchase Credits</title>
+</head>
+<body>
+    <h1>Purchase Credits</h1>
+    <!-- Add your form here for credit purchase details -->
+    <form method="post" action="{% url 'credit_system:purchase_credits' %}">
+        {% csrf_token %}
+        <!-- Add your form fields here -->
+        <button type="submit">Purchase</button>
+    </form>
+</body>
+</html>
