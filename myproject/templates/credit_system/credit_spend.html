@@ -1,0 +1,13 @@
+<!-- In the "credit_spend.html" template, we have a simple form that allows the user to enter the amount of credits they want to spend. The form is submitted to the "spend" URL in the "credit_system" app. -->
+
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Credit Spend</h1>
+  <form method="POST" action="{% url 'credit_system:spend' %}">
+    {% csrf_token %}
+    <label for="amount">Amount:</label>
+    <input type="number" name="amount" id="amount">
+    <input type="submit" value="Spend Credits">
+  </form>
+{% endblock %}

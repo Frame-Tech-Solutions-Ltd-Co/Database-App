@@ -1,0 +1,8 @@
+<!-- n the "credit_balance.html" template, we display the user's current credit balance using the credit_balance variable, which should be passed from the view when rendering the template. -->
+
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Credit Balance</h1>
+  <p>Your current credit balance is: {{ credit_balance }}</p>
+{% endblock %}
