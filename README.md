@@ -12,8 +12,8 @@ This is a database application developed using Django, designed to provide user 
 
 2. Set up a virtual environment (optional but recommended):
    ```
-   python3 -m venv venv
-   source venv/bin/activate
+   python3 -m venv venv && source venv/bin/activate
+
    ```
 
 3. Install the required dependencies:
