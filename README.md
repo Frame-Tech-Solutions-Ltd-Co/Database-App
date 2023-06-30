@@ -1,5 +1,3 @@
-Certainly! Here's an updated version of the README.md file for your database app project:
-
 # Database App
 
 This is a database app project developed using Python and Django.
