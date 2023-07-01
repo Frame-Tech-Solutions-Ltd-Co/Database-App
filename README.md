@@ -71,4 +71,4 @@ Contributions to the project are welcome. If you encounter any issues or have su
 
 This project is licensed under the [MIT License](LICENSE).
 
-Please let me know if you have any further questions or need assistance with any specific aspect of the project.
+Please let us know if you have any further questions or need assistance with any specific aspect of the project. Get in touch through the contact form here: https://www.frametechtw.com
