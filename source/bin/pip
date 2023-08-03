@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/Users/nigelphillipspursuit.org/Desktop/Database-App/source/bin/python3
+=======
+#!/Users/nigelphillipspursuit.org/Desktop/myproject/source/bin/python3
+>>>>>>> ac0ae1ae433d0b263612a43e55fccf58bef311a5
 # -*- coding: utf-8 -*-
 import re
 import sys

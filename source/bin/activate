@@ -38,7 +38,11 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
+<<<<<<< HEAD
 VIRTUAL_ENV="/Users/nigelphillipspursuit.org/Desktop/Database-App/source"
+=======
+VIRTUAL_ENV="/Users/nigelphillipspursuit.org/Desktop/myproject/source"
+>>>>>>> ac0ae1ae433d0b263612a43e55fccf58bef311a5
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

@@ -1,7 +1,20 @@
-```markdown
 # Database App
 
-This is a database application developed using Django, designed to provide user authentication, credit system, database interaction, record access, alert system, API endpoints, and user/company profiles.
+This is a database app project developed using Python and Django.
+
+## Project Overview
+
+The database app aims to provide various functionalities for managing user authentication, credit system, database interaction, record access, alert system, API integration, and user/company profiles. The app allows users to sign up, sign in, and use credits to access specific records in the database. It also provides search and filter functionality, alerts for record changes, and the ability to access records through an API.
+
+## Features
+
+- User authentication with phone number two-factor authentication during sign up.
+- Credit system for users to access the database and use credits to access specific records.
+- Search and filter functionality to find records based on various criteria.
+- Alert system to notify users of changes in accessed records.
+- API integration to access records programmatically.
+- User and company profiles with a clean and modern design.
+- Scalability to handle millions of records.
 
 ## Installation
 
@@ -10,7 +23,7 @@ This is a database application developed using Django, designed to provide user 
    git clone https://github.com/Frame-Tech-Solutions-Ltd-Co/Database-App.git
    ```
 
-2. Set up a virtual environment (optional but recommended):
+2. Create and activate a virtual environment:
    ```
    python3 -m venv venv && source venv/bin/activate
 
@@ -21,37 +34,41 @@ This is a database application developed using Django, designed to provide user 
    pip install -r requirements.txt
    ```
 
-4. Set up the database:
-   - Configure the database settings in `myproject/settings.py` according to your requirements.
-   - Run the database migrations:
-     ```
-     python manage.py makemigrations
-     python manage.py migrate
-     ```
+4. Run database migrations:
+   ```
+   python manage.py makemigrations
+   python manage.py migrate
+   ```
 
-5. Start the development server:
+## Usage
+
+1. Start the development server:
    ```
    python manage.py runserver
    ```
 
-6. Access the application in your web browser at http://localhost:8000.
+2. Access the app in your web browser at (awaiting site)`http://localhost:8000`.
 
-## Features
+## Testing
 
-- User authentication: Sign up, log in, and two-factor authentication.
-- Credit system: Purchase credits, spend credits, and view credit balance.
-- Database interaction: Search, filter, and retrieve records from the database.
-- Record access and tracking: Access specific records using credits and track record access.
-- Alert system: Receive alerts for record changes.
-- API endpoints: Access database records and functionality through API.
-- User and company profiles: View user and company profiles.
+To ensure the functionality of the app, it's recommended to perform comprehensive testing. You can write tests for each app to validate the expected behavior. Test user authentication, credit system functionality, database interaction, record access and tracking, alerts, API endpoints, and user/company profiles.
+
+## Deployment
+
+For deployment, consider the following steps:
+
+1. Choose a secure and economical hosting platform suitable for your needs.
+2. Configure the server settings according to the deployment environment.
+3. Deploy the codebase to the chosen hosting platform.
+
+Make sure to follow best practices for security, such as hashing and salting passwords, using secure connections, and validating user inputs.
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+Contributions to the project are welcome. If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
-```
+Please let us know if you have any further questions or need assistance with any specific aspect of the project. Get in touch through the contact form here: https://www.frametechtw.com
